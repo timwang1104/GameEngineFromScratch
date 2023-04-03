@@ -7,7 +7,7 @@
 int main(void) {
     xcb_connection_t *pConn;
     xcb_screen_t     *pScreen;
-    xcb_window_t     windoe;
+    xcb_window_t     window;
     xcb_gcontext_t   foreground;
     xcb_gcontext_t   background;
     xcb_generic_event_t *pEvent;
