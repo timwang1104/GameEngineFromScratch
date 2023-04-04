@@ -32,6 +32,7 @@ int main(void) {
     foreground = xcb_generate_id(pConn);
     mask = XCB_GC_FOREGROUND | XCB_GC_GRAPHICS_EXPOSURES;
     values[0] = pScreen->black_pixel;
+    values[1] = 0;
     xcb_create_gc(pConn, foreground, window, mask, values);
 
     /* create white (background) graphic context */
