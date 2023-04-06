@@ -3,3 +3,6 @@ build
 .vscode
 *.exe
 *.obj
+*.pdb
+*.vso
+*.pso
